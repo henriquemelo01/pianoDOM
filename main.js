@@ -24,11 +24,19 @@ const playNote = function (event) {
   // Play piano note:
   const audio = document.querySelector(`audio[data-key="${keyCode}"]`);
   audio.currentTime = 0;
+  keyBoard.classList.add("playing");
   audio.play();
+};
+
+// Stop playing note:
+
+const stopPlayig = function (event) {
+  event.target.classList.remove("playing");
 };
 
 for (let i = 0; i < keys.length; i++) {
   keys[i].addEventListener("click", playNote);
+  keys[i].addEventListener("transitionend", stopPlayig);
 }
 
 // Calls the function when the key was pressed
