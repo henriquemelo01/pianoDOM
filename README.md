@@ -1,14 +1,8 @@
 <h1>🎹 Piano DOM 🎹</h1>
-<video controls width="500">
- <source src="pianoDom.mp4" type="video/mp4">
-    Sorry, your browser doesn't support embedded videos.
-
-</video>
-<hr>
-<br>
-
+<img src = "pianoDom.jpg" >
 <div style =  
         "font-size: 16px" >
     <h2> Description: </h2>
-    <p> The project was developed at <a href = "https://rocketseat.com.br">Rocketseat 🚀</a> Masterclass. </p>
+    <p> The project was developed at <a href = "https://www.youtube.com/watch?v=UftSB4DaRU4">Rocketseat 🚀</a> Masterclass. </p>
+    
 </div>
