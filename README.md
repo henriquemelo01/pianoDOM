@@ -1,5 +1,5 @@
 <h1>🎹 Piano DOM 🎹</h1>
-<img src = "pianoDom.jpg" >
+<img src = "pianoDOM.jpg" >
 <div style =  
         "font-size: 16px" >
     <h2> Description: </h2>
