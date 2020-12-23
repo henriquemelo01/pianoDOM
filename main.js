@@ -20,9 +20,11 @@ const playNote = function (event) {
   const isPianoKey = keyBoard ? true : false;
   if (!isPianoKey) {
     return;
-  } else {
-    console.log(keyCode);
   }
+  // Play piano note:
+  const audio = document.querySelector(`audio[data-key="${keyCode}"]`);
+  audio.currentTime = 0;
+  audio.play();
 };
 
 for (let i = 0; i < keys.length; i++) {
